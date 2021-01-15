@@ -1,6 +1,0 @@
-# Netlify redirects
-
-https://portfolio-website-chessiah.netlify.app/* https://portfolio-website.chessiah.com/:splat 301!
-http://portfolio-website-chessiah.netlify.app/* https://portfolio-website.chessiah.com/:splat 301!
-
-http://portfolio-website.chessiah.com/* https://portfolio-website.chessiah.com/:splat 301!

@@ -1,0 +1,21 @@
+[build]
+  command = "npm run sass"
+  publish = "dist"
+
+[[redirects]]
+  from = "https://portfolio-website-aleksey-vl-ivanov.netlify.app/*"
+  to = "https://portfolio-website.aleksey-vl-ivanov.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://portfolio-website-aleksey-vl-ivanov.netlify.app/*"
+  to = "https://portfolio-website.aleksey-vl-ivanov.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://portfolio-website.aleksey-vl-ivanov.com/*"
+  to = "https://portfolio-website.aleksey-vl-ivanov.com/:splat"
+  status = 301
+  force = true
